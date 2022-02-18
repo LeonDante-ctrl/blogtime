@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div>
+    <img src="https://images.unsplash.com/photo-1644829079853-c12beeb57c50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80">
+</div>
     <h1>{% block title %} Welcome to Dante's blog {% endblock %}</h1>
     {% for post in posts %}
         <a href="{{ url_for('post', post_id=post['id']) }}">

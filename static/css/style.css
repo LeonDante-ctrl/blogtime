@@ -4,3 +4,17 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+
+div {
+    background-color: #fff;
+    background-image: url(masque-24.png);
+    background-size: cover;
+}
+
+div img {
+    width: 100%;
+}
+
+div img {
+    mix-blend-mode: screen;
+}
